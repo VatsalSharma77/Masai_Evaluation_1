@@ -1,0 +1,50 @@
+form{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    
+}
+form> input{
+    display: block;
+    margin: 18px;
+    padding: 6px;
+    width: 205px;
+}
+form > select{
+    margin: 18px;
+}
+form > input:last-child{
+    background: blue;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+table {
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+   td{
+    border: 1px solid wheat;
+    padding: 8px;
+    text-align: center;
+  }
+   th {
+    border: 1px solid wheat;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: rgb(96, 96, 250);
+  }
+  
+  th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+  }
+  
